@@ -14,3 +14,14 @@ if pulgadas == 1.0:
     print(f"{pulgadas} pulgada son {dePulgadas_a_Centimetros} cm")
 else:
     print(f"{pulgadas} pulgadas son {dePulgadas_a_Centimetros} cm")
+
+
+dePies_a_Centimetros = pies*2.54*12
+if pies == 1.0:
+    print(f"{pies} pie son {dePies_a_Centimetros} cm")
+else:
+    print(f"{pies} pies son {dePies_a_Centimetros} cm")
+
+resultado = dePulgadas_a_Centimetros + dePies_a_Centimetros; print(f"{pies} pies y {pulgadas} pulgadas son {resultado} cm")
+
+
