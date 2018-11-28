@@ -3,5 +3,5 @@
 # Se recuerda que el imc se calcula con la fórmula imc = peso / altura 2
 
 peso = float(input("Digame su peso en KG : ")); altura = float(input("Digame su altura en metros : "))
-resultado = peso/(altura**2); print(resultado)
+resultado = round(peso/(altura**2)); print(f"Su imc es {resultado}")
 
